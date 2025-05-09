@@ -90,4 +90,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/arun-achilles/leet/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/arun-achilles/leet/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/arun-achilles/leet/tree/master/0242-valid-anagram) |
+## Tree
+|  |
+| ------- |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/arun-achilles/leet/tree/master/0230-kth-smallest-element-in-a-bst) |
+## Depth-First Search
+|  |
+| ------- |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/arun-achilles/leet/tree/master/0230-kth-smallest-element-in-a-bst) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/arun-achilles/leet/tree/master/0230-kth-smallest-element-in-a-bst) |
+## Binary Tree
+|  |
+| ------- |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/arun-achilles/leet/tree/master/0230-kth-smallest-element-in-a-bst) |
 <!---LeetCode Topics End-->
