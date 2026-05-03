@@ -1,25 +1,8 @@
 class Solution:
     def countBits(self, n: int) -> List[int]:
-        def next_binary(binary):
-            bits = list(binary)
-            i = len(bits) - 1
-
-            while i >= 0:
-                if bits[i] == '0':
-                    bits[i] = '1'
-                    return ''.join(bits)
-                else:
-                    bits[i] = '0'
-                    i -= 1
-
-            return '1' + ''.join(bits)
-
-        itr = 0
-        curr_binary = '0'
-        res = [0]
-        while itr != n:
-            curr_binary = next_binary(curr_binary)
-            res.append(curr_binary.count('1'))
-            itr += 1
-        print(res)
+        # count_ones(i) = count_ones(all bits except last) + value_of_last_bit  
+        res = [0] * (n + 1)
+        for itr in range(1, n+1):
+            res[itr] = res[itr >> 1] + (itr & 1)
         return res
+        
